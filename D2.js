@@ -102,7 +102,22 @@ if (totalShoppingCart > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* 
+const n1 = parseInt(prompt("Inserisci un numero: "));
+const n2 = parseInt(prompt("Inserisci un numero: "));
+const n3 = parseInt(prompt("Inserisci un numero: "));
+if (n1 > n2 && n2 > n3) {
+  console.log(n1, n2, n3);
+} else if (n1 > n3 && n3 > n2) {
+  console.log(n1, n3, n2);
+} else if (n3 > n1 && n1 > n2) {
+  console.log(n3, n1, n2);
+} else if (n2 > n1 && n1 > n3) {
+  console.log(n2, n1, n3);
+} else {
+  console.log(n2, n3, n1);
+}
+*/
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
