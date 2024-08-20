@@ -42,7 +42,7 @@ if (resto == 0) {
 /* 
 const n1 = parseInt(prompt("Inserisci un numero: "));
 const n2 = parseInt(prompt("Inserisci un numero: "));
-if (n1 === 8 || n2 === 8 || n1 - n2 === 8 || n1 + n2 === 8) {
+if (n1 === 8 || n2 === 8 || Math.abs(n1 - n2) === 8 || n1 + n2 === 8) {
   console.log(true);
 } else {
   console.log(false);
