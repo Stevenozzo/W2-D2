@@ -123,13 +123,29 @@ if (n1 > n2 && n2 > n3) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* 
+const input = prompt("Inserisci ciò che vuoi");
+
+if (!isNaN(input)) {
+  const numberInput = parseInt(input);
+  console.log(typeof numberInput);
+} else {
+  console.log(typeof input);
+}
+*/
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const numero = parseInt(prompt("Inserisci un numero"));
+if (numero % 2 === 0) {
+  console.log(numero + " è un numero pari");
+} else {
+  console.log(numero + " è un numero dispari");
+}
+ */
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -141,9 +157,10 @@ if (n1 > n2 && n2 > n3) {
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
+  */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+ */
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
